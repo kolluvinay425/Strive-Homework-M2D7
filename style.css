@@ -1,0 +1,38 @@
+
+.display-4{
+    color: blue;
+}
+.nav > a {
+    background-color: brown;
+    color: cornsilk;
+}
+.jumbotron p a {
+    color: red!important;
+    
+}
+.blog-post :nth-child(1){
+    color: chartreuse;
+}
+.nav >a:nth-child(even){
+    color: darkblue;
+    
+}
+
+
+
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }

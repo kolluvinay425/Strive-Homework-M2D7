@@ -12,27 +12,13 @@
 
         10 CSS Exercises
         10 JS Exercises
-    -->
 
-  <head>
-    <style>
-        .display-4{
-            color: blue;
-        }
-        .nav > a {
-            background-color: brown;
-            color: cornsilk;
-        }
-        .jumbotron p a {
-            color: RED!important;
-            
-        }
-      /*
+        /*
             EX1) Write a selector to target the h1 in jumbotron
             
             EX2) Write a selector to target every children of the navbar
             EX3) Write a selector to target the "continue reading..." inside the jumbotron
-            EX4) Write a selector to target the first blogpost
+            EX4) Write a selector to target the first blog-post
             EX5) Write a selector to target the "even" links in the navbar
             EX6) Write a selector to target the last blog post
             EX7) Write a selector to target all the li into the first ordered-list in the sidebar ( Archives )
@@ -40,7 +26,12 @@
             EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly
             EX10) Write a selector to target the footer
         */
-    </style>
+    -->
+
+  <head>
+    
+      
+   
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -67,22 +58,7 @@
       crossorigin="anonymous"
     />
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <link
       href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900"
       rel="stylesheet"
@@ -99,9 +75,10 @@
           <div class="col-4 text-center">
             <a class="blog-header-logo text-dark" href="#">Large</a>
           </div>
-          <div class="col-4 d-flex justify-content-end align-items-center">
+          <div  class="col-4 d-flex justify-content-end align-items-center">
             <a class="text-muted" href="#">
               <svg
+                id="removeSearchIcon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
                 height="20"
@@ -113,7 +90,7 @@
                 class="mx-3"
                 role="img"
                 viewBox="0 0 24 24"
-                focusable="false"
+                focusable="false"main
               >
                 <title>Search</title>
                 <circle cx="10.5" cy="10.5" r="7.5" />
@@ -142,9 +119,9 @@
         </nav>
       </div>
 
-      <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+      <div class="jumbotron p-4 p-md-5 text-white rounded ">
         <div class="col-md-6 px-0">
-          <h1 class="display-4 font-italic">
+          <h1 class="display-4 font-italic "id="change-column">
             Title of a longer featured blog post
           </h1>
           <p class="lead my-3">
@@ -387,9 +364,10 @@
           <!-- /.blog-post -->
 
           <nav class="blog-pagination">
-            <a class="btn btn-outline-primary" href="#">Older</a>
+            <a onclick="removePrevioulyAddedPost()" class="btn btn-outline-primary" href="#">Older</a>
             <a
-              class="btn btn-outline-secondary disabled"
+              onclick="addNewBlogPost()"
+              class="btn btn-outline-primary "
               href="#"
               tabindex="-1"
               aria-disabled="true"
@@ -429,7 +407,7 @@
 
           <div class="p-4">
             <h4 class="font-italic">Elsewhere</h4>
-            <ol class="list-unstyled">
+            <ol class="listunstyled">
               <li><a href="#">GitHub</a></li>
               <li><a href="#">Twitter</a></li>
               <li><a href="#">Facebook</a></li>
@@ -453,20 +431,6 @@
       </p>
     </footer>
 
-    <script>
-      /*
-        JS Exercises
-        EX11) Write a function to add a new link into the navbar
-        EX12) Write a function to change the color of the main title
-        EX13) Write a function to change the background of the jumbotron
-        EX14) Write a function to remove all the links under "Elsewhere"
-        EX15) Write a function to change the column size for heading in jumbotron
-        EX16) Write a function to remove the "Search" magnifying glass icon
-        EX17) Write a function to trim just the first 50 characters in the first paragraph for each blog post
-        EX18) Write a function and attach it to the "Newer" button, to add new Blog Post (just div and title)
-        EX19) Write a function and attach it to the "Older" button, to remove the last Blog Post
-        EX20) Write an alert with the name of the author every time the user hover with the mouse over an author name
-    */
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
