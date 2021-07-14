@@ -1,21 +1,23 @@
 
 .display-4{
-    color: blue;
+    color: rgb(15, 15, 77);
 }
 .nav > a {
-    background-color: brown;
-    color: cornsilk;
+    background-color: rgb(165, 42, 165);
 }
 .jumbotron p a {
-    color: red!important;
+    color: rgb(255, 51, 0)!important;
     
 }
 .blog-post :nth-child(1){
     color: chartreuse;
 }
 .nav >a:nth-child(even){
-    color: darkblue;
+    color: rgb(8, 8, 8);
     
+}
+.color-change > a{
+    color: white;
 }
 
 
