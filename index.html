@@ -29,9 +29,6 @@
     -->
 
   <head>
-    
-      
-   
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -58,7 +55,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900"
       rel="stylesheet"
@@ -75,7 +72,7 @@
           <div class="col-4 text-center">
             <a class="blog-header-logo text-dark" href="#">Large</a>
           </div>
-          <div  class="col-4 d-flex justify-content-end align-items-center">
+          <div class="col-4 d-flex justify-content-end align-items-center">
             <a class="text-muted" href="#">
               <svg
                 id="removeSearchIcon"
@@ -90,7 +87,8 @@
                 class="mx-3"
                 role="img"
                 viewBox="0 0 24 24"
-                focusable="false"main
+                focusable="false"
+                main
               >
                 <title>Search</title>
                 <circle cx="10.5" cy="10.5" r="7.5" />
@@ -104,24 +102,24 @@
 
       <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-between color-change">
-          <a class="p-2 " href="#">World</a>
-          <a class="p-2 " href="#">U.S.</a>
-          <a class="p-2 " href="#">Technology</a>
+          <a class="p-2" href="#">World</a>
+          <a class="p-2" href="#">U.S.</a>
+          <a class="p-2" href="#">Technology</a>
           <a class="p-2" href="#">Design</a>
-          <a class="p-2 " href="#">Culture</a>
-          <a class="p-2 " href="#">Business</a>
-          <a class="p-2 " href="#">Politics</a>
-          <a class="p-2 " href="#">Opinion</a>
-          <a class="p-2 " href="#">Science</a>
-          <a class="p-2 " href="#">Health</a>
-          <a class="p-2 " href="#">Style</a>
-          <a class="p-2 " href="#">Travel</a>
+          <a class="p-2" href="#">Culture</a>
+          <a class="p-2" href="#">Business</a>
+          <a class="p-2" href="#">Politics</a>
+          <a class="p-2" href="#">Opinion</a>
+          <a class="p-2" href="#">Science</a>
+          <a class="p-2" href="#">Health</a>
+          <a class="p-2" href="#">Style</a>
+          <a class="p-2" href="#">Travel</a>
         </nav>
       </div>
 
-      <div class="jumbotron p-4 p-md-5 text-white rounded ">
+      <div class="jumbotron p-4 p-md-5 text-white rounded">
         <div class="col-md-6 px-0">
-          <h1 class="display-4 font-italic  "id="change-column">
+          <h1 class="display-4 font-italic" id="change-column">
             Title of a longer featured blog post
           </h1>
           <p class="lead my-3">
@@ -211,7 +209,9 @@
           <h3 class="pb-4 mb-4 font-italic border-bottom">From the Firehose</h3>
 
           <div class="blog-post">
-            <h2 class="blog-post-title">Sample blog post</h2>
+            <h2 class="blog-post-title" style="color: black">
+              Sample blog post
+            </h2>
             <p class="blog-post-meta">
               January 1, 2014 by <a href="#">Mark</a>
             </p>
@@ -364,10 +364,15 @@
           <!-- /.blog-post -->
 
           <nav class="blog-pagination">
-            <a onclick="removePrevioulyAddedPost()" class="btn btn-outline-primary" href="#">Older</a>
+            <a
+              onclick="removePrevioulyAddedPost()"
+              class="btn btn-outline-primary"
+              href="#"
+              >Older</a
+            >
             <a
               onclick="addNewBlogPost()"
-              class="btn btn-outline-primary "
+              class="btn btn-outline-primary"
               href="#"
               tabindex="-1"
               aria-disabled="true"
@@ -430,8 +435,6 @@
         <a href="#">Back to top</a>
       </p>
     </footer>
-   
-    
 
     <script src="index.js"></script>
   </body>

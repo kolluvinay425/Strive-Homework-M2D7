@@ -1,40 +1,32 @@
-
-.display-4{
-    color: rgb(15, 15, 77);
+.display-4 {
+  color: rgb(15, 15, 77);
 }
 .nav > a {
-    background-color: rgb(165, 42, 165);
 }
 .jumbotron p a {
-    color: rgb(255, 51, 0)!important;
-    
+  color: rgb(26, 24, 24) !important;
 }
-.blog-post :nth-child(1){
-    color: chartreuse;
+.blog-post :nth-child(1) {
+  color: chartreuse;
 }
-.nav >a:nth-child(even){
-    color: rgb(8, 8, 8);
-    
+.nav > a:nth-child(even) {
+  color: rgb(8, 8, 8);
 }
-.color-change > a{
-    color: white;
+.color-change > a {
+  color: white;
 }
-
-
-
-
 
 .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
+}
