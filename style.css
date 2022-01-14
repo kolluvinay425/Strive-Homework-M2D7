@@ -2,9 +2,10 @@
   color: rgb(15, 15, 77);
 }
 .nav > a {
+  background-color: rgb(165, 42, 165);
 }
 .jumbotron p a {
-  color: rgb(26, 24, 24) !important;
+  color: rgb(255, 51, 0) !important;
 }
 .blog-post :nth-child(1) {
   color: chartreuse;
